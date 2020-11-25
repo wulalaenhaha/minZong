@@ -1,0 +1,1 @@
+<view class="detail"><view style="line-height:60rpx;text-align:center;font-weight:bold;">{{dataDetail[0].Title}}</view><view style="min-height:600rpx;text-indent:2em;font-size:28rpx;line-height:80rpx;">{{dataDetail[0].Content}}</view><view style="line-height:60rpx;font-size:26rpx;color:#868686;text-align:right;">{{"上报时间："+dataDetail[0].AddTime}}</view></view>

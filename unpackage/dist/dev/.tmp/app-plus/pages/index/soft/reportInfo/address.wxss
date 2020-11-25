@@ -1,0 +1,70 @@
+
+.search{
+	width: 600rpx;height:70rpx;
+	background-color: #fff;
+	border-radius: 10rpx;
+	margin: 20rpx auto 0;		
+	display: -webkit-box;		
+	display: -webkit-flex;		
+	display: -ms-flexbox;		
+	display: flex;
+	line-height: 70rpx;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.search icon{
+	width: 70rpx;height:70rpx;
+	text-align: center;
+	margin-right: 20rpx;
+}
+input{
+	width: 530rpx;
+}
+image{
+	width: 50rpx;
+	height: 50rpx;
+}
+.info{
+	width: 100%;height:192rpx;
+	padding: 18rpx 30rpx;
+	color:#666;
+	font-size: 30rpx;
+	background-color: #fff;
+}
+.info .name{
+	color:#000;
+	font-weight: bold;
+	font-size: 32rpx;
+	padding-left: 10rpx;
+}
+.info>view{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	padding: 4rpx 0;
+}
+.con{
+	width: 100%;height:266rpx;
+	padding: 10rpx 30rpx;
+	background-color: #fff;
+	margin-top: 10rpx;
+}
+.con>view{		
+	color:#666;
+	padding: 10rpx 16rpx;
+}
+.con>view text{
+	text-align: left;
+}
+.con .right{
+	float: right;
+	color:#000;
+}
+

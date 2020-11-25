@@ -1,0 +1,37 @@
+
+page{
+	background-color: #F5F5F5;
+}
+.showImg{
+	width: 100%;height:300rpx;
+	text-align: center;
+	line-height: 300rpx;
+	padding: 25rpx 0;
+}
+.showImg image{
+	width: 260rpx;height:250rpx;
+}
+.my_info_item{
+	height: rpx;width: 100%;
+	background-color: #fff;
+	padding: 20rpx;
+}
+.my_info{
+	line-height: 68rpx;
+	color:#999;
+}
+.my_info text:first-child{
+	display: inline-block;
+	width: 190rpx;
+}
+.my_info text:last-child{
+	color:#000;
+}
+.my_info_item .my_info text.name{		
+	letter-spacing: 18rpx;
+}
+.name,
+.sex{
+	letter-spacing: 18rpx;
+}
+

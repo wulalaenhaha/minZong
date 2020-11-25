@@ -1,0 +1,24 @@
+
+.zhibo{
+	width: 100%;height:100%;
+	margin: 30rpx auto;
+}
+#vo{
+	width: 100%;height:800rpx;
+	background-color: #000000;
+	opacity: 0.1;
+}
+.cl{
+	text-align: center;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-justify-content: space-around;
+	    -ms-flex-pack: distribute;
+	        justify-content: space-around;
+	margin-top: 30rpx;
+}
+#videoplayer{
+}
+

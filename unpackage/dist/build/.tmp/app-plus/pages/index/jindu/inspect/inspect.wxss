@@ -1,0 +1,134 @@
+
+page {
+	background-color: #f5f5f5;
+	font-size: 16px;
+}
+view {
+	box-sizing: border-box;
+}
+.header {
+	width: 100%;
+	height: 180rpx;
+	padding: 20rpx 30rpx;
+	background-color: #fff;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: start;
+	-webkit-align-items: flex-start;
+	        align-items: flex-start;
+	margin-bottom: 20rpx;
+}
+.header .tpImg,
+.header .tp {
+	width: 120rpx;
+	height: 120rpx;
+	background-color: #666;
+	margin-right: 20rpx;
+}
+.header .tpImg image.gt {
+	width: 120rpx;
+	height: 120rpx;
+}
+.tpName {
+	color: #000;
+	font-weight: bold;
+}
+.tpInfo {
+	color: #848484;
+	margin-top: -4rpx;
+}
+.tpInfo>view{
+	height:48rpx;
+	line-height: 48rpx;
+}
+.phone {
+	/* line-height: 60rpx; */
+}
+.door {
+	background-color: #fff;
+	padding: 20rpx 30rpx;
+	color: #868686;
+	margin-bottom: 20rpx;
+}
+.doorTitle {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-around;
+	        justify-content: space-around;
+}
+.doorTitle view {
+	padding: 16rpx 0;
+}
+.borderColor {
+	color: #6398FF;
+	border-bottom: solid 2px #6398FF;
+}
+.detail,
+.fire .content,
+.build .content {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	line-height: 90rpx;
+}
+.con {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	/* line-height: 90rpx; */
+}
+.con .correct{
+	width: 35rpx;height: 35rpx;
+}
+.detail navigator {
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.fire,
+.build {
+	background-color: #fff;
+	padding: 20rpx 30rpx;
+	color: #868686;
+	margin-bottom: 20rpx;
+}
+.fire .title,
+.build .title {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.fire .title .lineLeft,
+.build .title .lineLeft {
+	background-color: #487DE5;
+	width: 4px;
+	height: 36rpx;
+	margin-right: 12rpx;
+}
+.fire .title .h3,
+.build .title .h3 {
+	color: #000;
+	font-weight: bold;
+}
+

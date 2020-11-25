@@ -1,0 +1,27 @@
+
+.header{
+	width: 100%;heigt:60rpx;
+	line-height: 60rpx;
+	text-align: center;
+	color:#868686;
+	font-size: 14px;
+}
+.content{
+	width: 100%;
+	padding: 30rpx;
+	font-size: 16px;
+}
+.con{
+	width:100%;min-height:60rpx;
+	background-color: #fff;
+	border-radius: 10rpx;
+	padding: 10rpx;
+	box-sizing: border-box;
+	margin:16rpx 0;
+}
+.con1{
+	white-space: nowrap;     
+	overflow:hidden;     
+	text-overflow: ellipsis;
+}
+

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "信教群众查询",
+  "usingComponents": {
+    "xfl-select": "/components/xfl-select"
+  }
+}

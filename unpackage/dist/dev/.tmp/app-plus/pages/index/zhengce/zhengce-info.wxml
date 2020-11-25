@@ -1,0 +1,1 @@
+<view class="news"><view class="header"><view class="title">{{title}}</view><view class="time">{{createtime}}</view></view><rich-text nodes="{{content}}"></rich-text></view>

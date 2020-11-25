@@ -1,0 +1,36 @@
+
+page{
+	background-color: #F5F5F5;
+}
+.tit{
+	width: 100%;height:300rpx;
+	text-align: center;
+}
+.tit image{
+	width: 144rpx;height:144rpx;
+	margin-top: 86rpx;
+}
+.tit view{
+	line-height: 100rpx;
+	font-size: 40rpx;
+	color:#487DE5;
+	font-weight: bold;
+}
+.ma{
+	width: 100%;
+	/* overflow: hidden; */
+	margin-top: 120rpx;
+	text-align: center;
+}
+.ma image{
+	width: 360rpx;height:360rpx;
+}
+.copy{
+	width: 100%;
+	position: absolute;
+	bottom: 30rpx;
+	text-align: center;
+	font-size: small;
+	color:#999;
+}
+

@@ -1,0 +1,77 @@
+
+.header,
+.textarea,
+.check{ 
+	width: 100%;
+	padding: 20rpx 30rpx;
+	background-color: #fff;
+}
+.header>view,
+.check{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: start;
+	-webkit-justify-content: flex-start;
+	        justify-content: flex-start;
+}
+.header view.tit{
+	/* width: 160rpx; */
+	font-weight: 500;
+}
+input{
+	min-width:500rpx;
+}
+.textarea{
+	margin: 20rpx 0;
+}
+.textarea>view{
+	margin-bottom: 20rpx;
+}
+.textarea .add{
+	margin-bottom: 0;
+}
+.textarea textarea{
+	height:150rpx;
+}
+.textarea .tit{
+	line-height: 60rpx;
+}
+.img{
+	width: 120rpx;height:120rpx;
+	margin:10rpx;
+}
+.addImg{
+	width: 100rpx;height:100rpx;
+	margin-left: 14rpx;
+	cursor:pointer;
+}
+.check .radios,
+.con{
+	color:#868686;
+}
+.check radio{
+	-webkit-transform:scale(0.6);
+	        transform:scale(0.6);
+	margin-left: 50rpx;
+}
+.tj{
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	padding: 20rpx 30rpx;
+}
+/* 删除按钮 */
+.times{
+	display: inline-block;
+	width: 32rpx;height:32rpx;
+	text-align: center;
+	line-height: 30rpx;
+	position: relative;
+	font-size: 18rpx;
+	top:-120rpx;left:-20rpx;
+	background-color: #f00;
+	border-radius: 50%;
+	color:#fff;
+}
+

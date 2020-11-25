@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "教职人员查询",
+  "usingComponents": {
+    "xfl-select": "/components/xfl-select"
+  }
+}

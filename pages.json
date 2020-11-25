@@ -1,0 +1,338 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+		    "path" : "pages/index/mzBanShi/index",
+		    "style" : {
+				"navigationBarTitleText": "网上办事",
+				"app-plus":{
+					"bounce":"none",
+					"titleNView":{
+						"buttons":[
+							{
+								"fontSrc":"/static/font/iconfont.ttf",
+								"color":"#FFFFFF",
+								"fontSize":"30px",
+								"text":"\ue622"
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+		    "path" : "pages/mine/test",
+		    "style" : {
+				"navigationBarTitleText": "测试"
+			}
+		},
+		{
+		    "path" : "pages/index/mzBanShi/add",
+		    "style" : {
+				"navigationBarTitleText": "办事说明"
+			}
+		},
+		{
+		    "path" : "pages/index/mzBanShi/NoInfo",
+		    "style" : {
+				"navigationBarTitleText": "办事详情"
+			}
+		},
+		{
+		    "path" : "pages/index/mzBanShi/deal",
+		    "style" : {
+				"navigationBarTitleText": "处理详情"
+			}
+		},
+		{
+		    "path" : "pages/index/nation/mZnation",
+		    "style" : {
+				"navigationBarTitleText": "少数民族查询"
+			}
+		},
+		{
+		    "path" : "pages/index/nation/zongJiaoNation",
+		    "style" : {
+				"navigationBarTitleText": "少数民族查询"
+			}
+		},
+		{
+		    "path" : "pages/index/nation/nationInfo",
+		    "style" : {
+				"navigationBarTitleText": "个人信息"
+			}
+		},
+		{
+		    "path" : "pages/index/video/index",
+		    "style" : {
+				"navigationBarTitleText": "视频列表" 
+			}
+		},
+		{
+		    "path" : "pages/index/video/video",
+		    "style" : {
+				"navigationBarTitleText": "视频"
+			}
+		},
+		{
+		    "path" : "pages/index/video/video1",
+		    "style" : {
+				"navigationBarTitleText": "视频"
+			}
+		},
+		{
+		    "path" : "pages/index/video/video2",
+		    "style" : {
+				"navigationBarTitleText": "视频"
+			}
+		},
+        {
+            "path" : "pages/mine/mine",
+            "style" : {
+				"navigationBarTitleText": "我的"
+			}
+        },
+		{
+		    "path" : "pages/index/login/login",
+		    "style" : {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+		    "path" : "pages/index/login/register/index",
+		    "style" : {
+				"navigationBarTitleText": "注册"
+			}
+		},
+		{
+		    "path" : "pages/index/login/password/password",
+		    "style" : {
+				"navigationBarTitleText": "忘记密码"
+			}
+		},
+		{
+		    "path" : "pages/index/place/placeInfo",
+		    "style" : {
+				"navigationBarTitleText": "采集场所位置信息"
+			}
+		},
+		{
+		    "path" : "pages/index/place/PlaceInfo1",
+		    "style" : {
+				"navigationBarTitleText": "场所详情"
+			}
+		},
+		{
+		    "path" : "pages/index/search/searchOrg",
+		    "style" : {
+				"navigationBarTitleText": "宗教查询"
+			}
+		},
+		{
+		    "path" : "pages/index/search/MzjuPeople",
+		    "style" : {
+				"navigationBarTitleText": "信教群众查询"
+			}
+		},
+		{
+		    "path" : "pages/index/search/searchStaff",
+		    "style" : {
+				"navigationBarTitleText": "教职人员查询"
+			}
+		},
+		{
+		    "path" : "pages/index/search/queryResult",
+		    "style" : {
+				"navigationBarTitleText": "查询结果"
+			}
+		},
+		{
+		    "path" : "pages/index/search/peopleDetails",
+		    "style" : {
+				"navigationBarTitleText": "人员信息"
+			}
+		},
+		{
+		    "path" : "pages/index/info/info",
+		    "style" : {
+				"navigationBarTitleText": "消息列表",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+		    "path" : "pages/index/info/disposeInfo",
+		    "style" : {
+				"navigationBarTitleText": "信息详情"
+			}
+		},
+		{
+		    "path" : "pages/index/info/hege",
+		    "style" : {
+				"navigationBarTitleText": "处理详情"
+			}
+		},
+		{
+		    "path" : "pages/index/jindu/inspect/inspect",
+		    "style" : {        
+				"navigationBarTitleText": "实施进度5--待查项"
+			}
+		},
+		{
+		    "path" : "pages/index/jindu/inspect/mzInspect",
+		    "style" : {
+				"navigationBarTitleText": "实施进度"
+			}
+		},
+		{
+		    "path" : "pages/index/jindu/inspectInfo/inspectInfo",
+		    "style" : {
+				"navigationBarTitleText": "待查详情"
+			}
+		},
+		{
+		    "path" : "pages/index/jindu/qualifiedInfo/mZqualifiledInfo",
+		    "style" : {
+				"navigationBarTitleText": "合格详情"
+			}
+		},	
+		{
+		    "path" : "pages/index/jindu/qualifiedInfo/qualifiedInfo",
+		    "style" : {
+				"navigationBarTitleText": "合格详情"
+			}
+		},		
+		{
+		    "path" : "pages/index/soft/soft",
+		    "style" : {
+				"navigationBarTitleText": "宗教事件"
+			}
+		},
+		{
+		    "path" : "pages/index/soft/xuncha",
+		    "style" : {
+				"navigationBarTitleText": "平安巡查"
+			}
+		},
+		{
+		    "path" : "pages/index/soft/xunchaPlace",
+		    "style" : {
+				"navigationBarTitleText": "平安巡查"
+			}
+		},
+		{
+		    "path" : "pages/index/soft/mzXunCha",
+		    "style" : {
+				"navigationBarTitleText": "平安巡查" 
+			}
+		},
+		{
+		    "path" : "pages/index/soft/reportInfo/address",
+		    "style" : {
+				"navigationBarTitleText": "场所信息"
+			}
+		},
+		{
+		    "path" : "pages/index/soft/reportInfo/reportInfo",
+		    "style" : {
+				"navigationBarTitleText": "信息上报"
+			}
+		},
+		{
+		    "path" : "pages/index/zhengce/zhengceList",
+		    "style" : {
+				"navigationBarTitleText": "政策法规"
+			}
+		},
+		{
+		    "path" : "pages/index/zhengce/zhengce-info",
+		    "style" : {
+				"navigationBarTitleText": "政策法规详情"
+			}
+		},
+		{
+            "path" : "pages/comon/comon",
+            "style" : {
+				"navigationBarTitleText": "公告栏"
+			}
+        },{
+            "path" : "pages/comon/detail/index",
+            "style" : {
+				"navigationBarTitleText": "消息详情"
+			}
+        },{
+            "path" : "pages/mine/userInfo",
+            "style" : {
+				"navigationBarTitleText": "我的信息"
+			}
+        },{
+            "path" : "pages/index/soft/reportInfo/video",
+            "style" : {
+				"navigationBarTitleText": "视频预览"
+			}
+        },{
+            "path" : "pages/mine/yinsi",
+            "style" : {
+				"navigationBarTitleText": "APP隐私政策"
+			}
+        },{
+            "path" : "pages/index/search/queryPeople",
+            "style" : {
+				"navigationBarTitleText": "信教群众查询"
+			}
+        },{
+            "path" : "pages/index/search/qunzhong",
+            "style" : {
+				"navigationBarTitleText": "信教人员信息"
+			}
+        },{
+            "path" : "pages/mine/zhibo",
+            "style" : {
+				"navigationBarTitleText": "实时直播"
+			}
+        },{
+            "path" : "pages/mine/zhiwen-livepush",
+            "style" : {
+				"navigationBarTitleText": "实时直播"
+			}
+        }
+    ],
+	"globalStyle": { 
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#487DE5",
+		"backgroundColor": "#F5F5F5"
+	},
+	"tabBar": { 
+		"color" : "#7A7E83",
+		"selectedColor" : "#007AFF",
+		"borderStyle" : "black",
+		"backgroundColor" : "#F8F8F8",
+		"list":[
+			{
+			    "pagePath" : "pages/index/index",
+			    "iconPath" : "static/index/index.png",
+			    "selectedIconPath" : "static/index/index_active.png",
+			    "text" : "首页"
+			},
+			{
+			    "pagePath" : "pages/comon/comon",
+			    "iconPath" : "static/index/announcement.png",
+			    "selectedIconPath" : "static/index/announcement-on.png",
+			    "text" : "公告栏"
+			},
+			{
+			    "pagePath" : "pages/mine/mine",
+			    "iconPath" : "static/index/mine.png",
+			    "selectedIconPath" : "static/index/mine_active.png",
+			    "text" : "我的"
+			}
+		]
+	}
+}

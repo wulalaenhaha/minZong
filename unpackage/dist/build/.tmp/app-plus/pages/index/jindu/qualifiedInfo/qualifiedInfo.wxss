@@ -1,0 +1,59 @@
+
+page{
+	background-color: #f5f5f5;
+	font-size: 16px;
+}
+view{
+	box-sizing: border-box;
+}
+.header,
+.textarea,
+.check{ 
+	width: 100%;
+	padding: 20rpx 30rpx;
+	background-color: #fff;
+}
+.header>view,
+.check{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: start;
+	-webkit-justify-content: flex-start;
+	        justify-content: flex-start;
+}
+.header view.tit{
+	/* width: 190rpx; */
+	font-weight: 500;
+}
+input{
+	min-width: 500rpx;
+}
+.textarea{
+	margin: 20rpx 0;
+}
+.textarea>view{
+	margin-bottom: 20rpx;
+}
+.textarea .add{
+	margin-bottom: 0;
+}
+.img{
+	width: 120rpx;height:120rpx;
+	margin:10rpx;
+}
+.textarea textarea{
+	color:#868686;
+	height:90rpx;
+	line-height: 90rpx;
+}
+.textarea .tit{
+	line-height: 60rpx;
+}
+.itemName,
+.sonName,
+.checkDate,
+.checkPeople{
+	color:#868686;
+}
+

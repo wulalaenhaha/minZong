@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "少数民族查询",
+  "usingComponents": {
+    "xfl-select": "/components/xfl-select"
+  }
+}

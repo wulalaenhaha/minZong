@@ -1,0 +1,29 @@
+
+.news{
+        width: 100%;
+        padding: 0 30rpx;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+        font-size: 32rpx;
+        color: #484848;
+}
+.title{
+        font-size: 40rpx;
+        font-weight: 700;
+}
+.time{
+        padding: 35rpx 0 0;
+        font-size: 22rpx;
+        color: #AAAAAA;
+}
+.content{
+        margin-top: 30rpx;
+}
+rich-text{
+		text-indent: 2em;
+}
+.img-wrap{
+		display: block;
+		width: 680rpx;
+}
+

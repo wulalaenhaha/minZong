@@ -1,0 +1,1 @@
+<view class="zhibo"><view id="vo"></view><view id="videoplayer"></view><view class="cl"><button type="primary" size="mini" data-event-opts="{{[['tap',[['chushi']]]]}}" bindtap="__e">初始化开始直播</button></view><view class="cl"><button type="primary" size="mini" data-event-opts="{{[['tap',[['close']]]]}}" bindtap="__e">关闭直播</button></view></view>

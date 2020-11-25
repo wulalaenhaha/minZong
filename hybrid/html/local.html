@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>跳转中</title>
+</head>
+<body>
+<div class="page__hd" align="center">
+    <h3 align="center" style="padding:30px;">正在打开微信请稍等...</h3>
+    <a href="javascript:;" class="weui-btn weui-btn_primary weui-btn_loading" onClick="toweixin();" style="width: 60%">重新打开微信</a><br>
+</div>
+
+<script>
+    
+    setTimeout(toweixin());
+
+    function toweixin() {
+        window.location.replace('weixin://dl/business');
+    }
+
+    toweixin();
+
+</script>
+
+</body>
+</html>
